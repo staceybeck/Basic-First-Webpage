@@ -1,0 +1,68 @@
+button.navbar-toggle{ /*collapse button color features*/
+	background-color: #34d3d9;
+	
+}
+
+span.icon-bar{ /*lines on collapse button*/
+	background-color: gray;
+}
+
+a{
+	color:#34d3d9;
+	background-color: transparent;
+
+}
+
+a.navbar-brand{
+	padding-left: 10px;
+	color:#34d3d9;
+	text-decoration: none;
+	font-family: helvetica;
+}
+
+a:hover{
+	color:hotpink;
+	text-decoration: none;
+	background-color: transparent;
+	padding-left: 10px;
+}
+
+/*contact page additional link details*/
+div#webLink{
+	padding-left: 20px;
+	color: gray;
+	background-color: transparent;
+}
+
+/*nav bar details for all pages*/
+div#navbar{
+	padding-left: 10px;
+	color: black;
+	font-family: helvetica;
+	padding-bottom: 20px;
+	margin-right: auto;
+}
+
+/*about page title*/
+div#aboutTitle{
+	padding-left: 20px;
+	padding-bottom: 10px;
+	background-color: transparent;
+}
+
+/*about page image positioning*/
+div#imageAbout{
+	padding-left: 20px;
+	background-color: transparent;
+}
+
+p#pContact{
+	padding-left: 20px;
+	padding-top: 10px;
+	background-color: transparent;
+}
+
+p#aboutBody{
+	padding-left: 20px;
+	background-color: transparent;
+}

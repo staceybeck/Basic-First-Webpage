@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>
+			My webpage
+		</title>
+		
+		<link rel="stylesheet" type="text/css" href="bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<link rel="stylesheet" type="text/css" href="gallery.css"/>
+
+		<!--adds a jquery library-->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+		<script type="text/javascript" src="script.js" ></script>
+	
+	</head>
+	<body>
+	<nav class="navbar-wrapper">
+		<div class="container-fluid">
+			<div class="navbar-header"> <!--I am looking to organize these elements on right hand side of page-->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">Sash Illustration</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="index.html">Home</a></li>
+					<!--<div id="navBar">-->
+					<li><a href="about.html">About Me</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>			
+			</div>
+		</div>
+	</nav>
+	<!--thumbnamil gallery images under the navbar-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<img id="image1" class="crop-img" src="SanFranciscoCityScape2015.jpg" alt="San Francisco City Scape"/>
+			</div>
+			<div class="col-md-3">
+				<img id="image2" class="crop-img" src="shenzhencityscape.jpg" alt="Shenzhen City Scape"/>
+			</div>
+			<div class="col-md-3">
+				<img id="image3" class="crop-img" src="seoulcityscape.jpg" alt="Seoul City Scape"/>
+			</div>
+			<div class="col-md-3">
+				<img id="image4" class="crop-img" src="hongkongcityscape.jpg" alt="Hong Kong City Scape"/>
+			</div>
+		</div>
+		<!--the big image display-->
+		<div class="row">
+			<div class="col-md-1">
+				<button id="backward">&lt;</button>
+			</div>
+			<div class="col-md-10">
+				<img id="bigImage" class="large-img" src="SanFranciscoCityScape2015.jpg" alt="San Francisco City Scape"/>
+			</div>
+			<div class="col-md-1">
+				<button id="forward">&gt;</button>
+			</div>
+		</div>
+	</div>
+							
+	</body>
+		
+</html>
+
+

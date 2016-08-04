@@ -1,0 +1,16 @@
+.crop-img{
+  max-height:200px;
+  max-width:100%;
+}
+.large-img{
+	max-width:100%;
+}
+
+#forward{
+	color:pink;
+}
+
+#backward{
+	color:pink;
+}
+
